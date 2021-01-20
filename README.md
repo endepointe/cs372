@@ -16,10 +16,10 @@ From the command line run:
 1. Use python version >= 3. Haven't tested versions less than version 3
 2. from the root project folder, run 
   ```
-  python socket_server.py [your_specified port]
+  python server.py [your_specified port]
   ```
   or 
   ```
-  py socket_server.py [your_specified port]
+  py server.py [your_specified port]
   ```
   or however your environment settings run python scripts.
