@@ -7,7 +7,8 @@ def lab1():
   port = 80 
   host = 'gaia.cs.umass.edu'
   uri1 = '/wireshark-labs/INTRO-wireshark-file1.html'
-  req_string = "GET " + uri1 + " HTTP/1.1\r\nHost:" + host + "\r\n\r\n"
+  uri2 = '/wireshark-labs/HTTP-wireshark-file1.html'
+  req_string = "GET " + uri2 + " HTTP/1.1\r\nHost:" + host + "\r\n\r\n"
   address = (host, port)
   buffer_size = 4096 
   res_size = 0
