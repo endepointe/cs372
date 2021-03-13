@@ -37,5 +37,5 @@ if __name__ == "__main__":
     except ConnectionAbortedError:
       print("CLIENT DISCONNECTED")
       chat_client.close()
+  # 8. sockets are closed, using with
   chat_server.close()
-    # 8. sockets are closed, using with

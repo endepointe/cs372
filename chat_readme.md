@@ -1,6 +1,8 @@
 # cs372 - Chat Application using sockets
 
 ## Specification 
+### REFERENCES
+    [Python DOCS](https://docs.python.org/3/library/socket.html#example)
 
 ### Server
 1. the server creates a socket and binds to locahost and port 
@@ -24,9 +26,9 @@
 
 Start the server:
   ```
-  python chat_server.py <port> 
+  py chat_server.py <port> 
   ```
 Then start the client:
   ```
-  py chat_client.py <port> 
+  py chat_client.py <server port> 
   ```

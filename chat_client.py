@@ -39,4 +39,4 @@ if __name__ == "__main__":
       print("SERVER DISCONNECTED")
       chat_client.close()
     # 8. sockets are closed, using with
-    #chat_client.close()
+    chat_client.close()
