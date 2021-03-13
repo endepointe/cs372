@@ -2,7 +2,7 @@
 
 ## Specification 
 ### REFERENCES
-    [Python DOCS](https://docs.python.org/3/library/socket.html#example)
+[Python DOCS](https://docs.python.org/3/library/socket.html#example)
 
 ### Server
 1. the server creates a socket and binds to locahost and port 
